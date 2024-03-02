@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- pantone -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+
+    <!-- open sans  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!----------------------------- HEADER ------------------------------------>
+
+    <header>
+        <h1 class="textoHeader"> Seja bem-vindo ao </h1>
+        <div class="container_vita">
+            <h1 class="vitaHeader">VITA</h1>
+            <img class="logoVita" src="img/logo_vita-transformed (1) 1.png" alt="">
+        </div>
+    </header>
+
+    <!----------------------------- LOGIN ------------------------------------->
+
+    <section>
+        <div class="login">
+            <h1 class="tituloLogin">LOGIN</h1>
+
+            <!----------------------------- INPUTS ------------------------------------->
+
+            <form id="formulario">
+                <div class="campo">
+                    <label for="email" id="labelEmail" class="textoLogin">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+
+                </div>
+
+                <div class="campo">
+                    <label for="senha" id="labelSenha" class="textoLogin">Senha</label>
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" id="password">
+                </div>
+
+                <a href="#" class="esqueciSenha">Esqueci minha senha</a>
+
+                <!---------------------------- BOTÃO ENTRAR --------------------------------->
+
+                <div class="botao">
+                        <button type="submit" class="botaoEntrar" id="botaoEntrar">ENTRAR</button>
+                </div>
+
+                <!---------------------------- FAZER LOGIN COM ------------------------------->
+
+                <h2 class="fazerLoginCom">Fazer login com</h2>
+
+                <div class="containerBotoes">
+                    <a
+                        href="https://accounts.google.com/AccountChooser/signinchooser?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser&ec=asw-gmail-globalnav-signin&theme=glif">
+                        <div class="gmail">
+                            <img class="iconGmail" src="img/Vector.png" alt="">
+                        </div>
+                    </a>
+
+                    <a href="https://pt-br.facebook.com/">
+                        <div class="facebook">
+                            <img class="iconFacebook" src="img/Vector (1).png" alt="">
+                        </div>
+                    </a>
+                </div>
+
+                <!----------------------------- CADASTRAR ------------------------------------->
+
+                <div class="cadastrar">
+                    <h2 class="textoCadastrar">Não possui uma conta?</h2>
+                    <a href="/Cadastro/index.html">
+                        <div class="botaoCadastrar">
+                            CADASTRAR
+                        </div>
+                    </a>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,214 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, b, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+    margin: 0;
+    background-color: #FFFEED;
+}
+
+/* ------------------------------------------------ BARRA DE PERFIL ------------------------------------------------------- */
+
+.barra_perfil {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 30px; 
+    
+}
+
+.mensagem {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 6px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.mensagem h3 {
+    font-weight: bold;
+}
+
+.barra_perfil img {
+    width: auto;
+    height: 80px;
+}
+
+
+.barra_perfil img:last-child {
+    margin-left: auto; 
+    height: 80px; 
+}
+
+/* ----------------------------------------------------------------- NIVEL -------------------------------------------------------- */
+
+.nivel h2 {
+    margin-left: 6px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+}
+
+.nivel_barra {
+    padding: 6px;
+    display: flex;
+    flex-direction: column; /* Alterado para coluna para empilhar os elementos verticalmente */
+    align-items: center; /* Adicionado para centralizar os elementos */
+    background-color: #7A0F11;
+    color: white;
+}
+
+.nivel_barra h1 {
+    margin-left: 6px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nivel_barra h1, p {
+    padding: 1px;
+}
+.nivel_barra img {
+    width: 220px;
+}
+
+/* ------------------------------------------------------- CONQUISTAS ---------------------------------------------------------------------- */
+
+
+.conquistas h1 {
+    margin-top: 12px;
+    margin-left: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+.doacoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.doacoes img {
+    width: auto;
+    height: 130px;
+    padding: 5px;
+}
+
+@media screen and (max-width: 419px) {
+    .doacoes img {
+      width: auto; /* Defina a largura das imagens como 100% da largura do contêiner pai */
+      height: 115px; /* Mantenha a proporção original da altura */
+      padding: 5px; /* Ajuste conforme necessário */
+    }
+  }
+
+
+/* ---------------------------- BARRA DE NAVEGAÇÃO ------------------------------ */
+
+.navegacao {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: flex;
+    background: #5A0000;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navegacao img {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: auto;
+    height: 40px;
+    fill: red;
+}
+
+#perfil {
+    background-color: #5A0000;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    
+}
+
+#perfil:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+#gota {
+    background-color: #5A0000;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    
+}
+
+#gota:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+#recompensa {
+    background-color: #5A0000;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    
+}
+
+#recompensa:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+#feed {
+    background-color: #5A0000;
+    transition: background-color 0.3s ease;
+    
+}
+
+#feed:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+#feed {
+    width: 50px;
+}
+
+#artigo {
+    background-color: #5A0000;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+   
+}
+
+#artigo:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+a {
+    -webkit-tap-highlight-color: transparent; 
+}
+
+
+

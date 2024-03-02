@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    background-color: #FFFEED;
+}
+
+/*----------------- HEADER --------------------*/
+
+.iconVoltar {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.iconTermos {
+    height: 100px;
+    width: 100px;
+}
+
+header {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+
+.textoHeader {
+    margin-top: 5px;
+    color: #490A0A;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/*---------------- TERMOS -------------------*/
+
+.termos {
+    border-radius: 40px;
+    opacity: 0.9;
+    background: #e7b0b0;
+    padding: 15px;
+    overflow: hidden;
+}
+
+section {
+    padding: 25px;
+}
+
+.tituloTermos {
+    color: #420000;
+    display: flex;
+    font-weight: 700;
+    font-family: "Open Sans";
+    font-size: 20px;
+}
+
+.textoTermos {
+    display: flex;
+    color: #420000;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.botaoConcordo {
+    border-radius: 40px;
+    background: #924D4D;
+    font-family: "Open Sans";
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 600;
+    border: none;
+    padding: 10px;
+
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.botaoConcordo:hover {
+    background: #943333;
+    cursor: pointer;
+}

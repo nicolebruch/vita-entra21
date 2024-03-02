@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  background-color: #fffeed;
+}
+
+/*------------------------------------------------------ HEADER ------------------------------------------------------------------------------- */
+#home_titulo {
+  background-color: #5a0000;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+#home_titulo,
+h1 {
+  font-size: 25px;
+  color: #7a0f11;
+  font-family: "Paytone One", sans-serif;
+}
+
+.iconVoltar {
+  margin-top: 20px;
+  margin-left: 30px;
+ }
+
+.barra_perfil {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.mensagem {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-right: 65px;
+  font-size: 23px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.mensagem h3 {
+  font-weight: bold;
+}
+
+.barra_perfil img {
+  width: auto;
+  height: 80px;
+}
+
+.barra_perfil img:last-child {
+  margin-left: auto;
+  height: 80px;
+}
+
+.calendario {
+  max-width: 50px;
+  max-height: 50px;
+  margin-left: 20px;
+}
+
+.calendario_cronograma {
+  display: inline-block;
+}
+
+.calendario_cronograma h2 {
+  color: #490a0a;
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+
+p {
+  margin-left: 6px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding-left: 40px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  background-color: #fffeed;
+  border-radius: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.mapa iframe {
+  height: 580px;
+  width: 350px;
+  box-shadow: 0 0 5px #220101;
+  border-radius: 25px;
+  margin: 10px; 
+}
+
+/* ---------------------------- BARRA DE NAVEGAÇÃO ------------------------------ */
+
+.navegacao {
+
+  padding-top: 6px;
+  padding-bottom: 6px;
+  display: flex;
+  background: #5A0000;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navegacao img {
+  margin-right: 20px;
+  margin-left: 20px;
+  width: auto;
+  height: 40px;
+  fill: red;
+}
+
+/*--------------------- EFEITOS ----------------- */
+
+#pet:active {
+  opacity: 0.8;
+}
+
+#pet:active {
+  opacity: 0.8;
+}
+
+#pessoa:active {
+  opacity: 0.8;
+}
+
+#pessoa:active {
+  opacity: 0.8;
+}
+
+#perfil {
+  background-color: #5A0000;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+  
+}
+
+#perfil:active {
+  background-color: #b64d4d;
+  opacity: 0.5;
+}
+
+#gota {
+  background-color: #5A0000;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+  
+}
+
+#gota:active {
+  background-color: #b64d4d;
+  opacity: 0.5;
+}
+
+#recompensa {
+  background-color: #5A0000;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+  
+}
+
+#recompensa:active {
+  background-color: #b64d4d;
+  opacity: 0.5;
+}
+
+#feed {
+  background-color: #5A0000;
+  transition: background-color 0.3s ease;
+  
+}
+
+#feed:active {
+  background-color: #b64d4d;
+  opacity: 0.5;
+}
+
+#feed {
+  width: 50px;
+}
+
+#artigo {
+  background-color: #5A0000;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+ 
+}
+
+#artigo:active {
+  background-color: #b64d4d;
+  opacity: 0.5;
+}
+
+a {
+  -webkit-tap-highlight-color: transparent; 
+}

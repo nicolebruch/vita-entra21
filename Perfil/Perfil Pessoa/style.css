@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #fffeed;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+#cadastro_humano,
+h1 {
+    background-color: #5A0000;
+    color: #7a0f11;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+}
+
+h1 {
+    background-color: #FFFEED;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.btn-seusdados{
+    background-color:#5A0000;
+    color: #ffffff;
+    font-family: "Roboto-ExtraBold", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    width: 168px;
+    height: 39px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-petdados{
+    background:#b64949;
+    color: #ffffff;
+    font-family: "Roboto-ExtraBold", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    width: 168px;
+    height: 39px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.retangulo {
+    background-color:#7a0f11;
+    justify-content: center;
+    padding: 5px 30px;
+    border-radius: 30px;
+    width: 350px;
+    margin: 10px auto; 
+}
+
+.retangulo_titulo {
+    color: #ffffff;
+    text-align: left;
+    font-family: "OpenSans-Regular", sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    position: relative;
+    width: 294px;
+    -webkit-text-stroke: 1px #ffffff;
+}
+
+.navegacao {
+
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: flex;
+    background: #5A0000;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navegacao img {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: auto;
+    height: 40px;
+    fill: red;
+}
+
+
+/* ------------------------------EFEITOS---------------------------- */
+#perfil {
+    background-color: #5A0000;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    
+}
+
+#perfil:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+#gota {
+    background-color: #5A0000;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    
+}
+
+#gota:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+#recompensa {
+    background-color: #5A0000;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    
+}
+
+#recompensa:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+#feed {
+    background-color: #5A0000;
+    transition: background-color 0.3s ease;
+    
+}
+
+#feed:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+#feed {
+    width: 50px;
+    outline: none;
+}
+
+#artigo {
+    background-color: #5A0000;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+   
+}
+
+#artigo:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+a {
+    -webkit-tap-highlight-color: transparent; 
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.icon img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.visitante {
+    display: flex; 
+    align-items: center;
+    color: #5A0000;
+    text-align: left;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    width: 350px;
+    height: 100px;
+}
+
+.visitante img {
+    margin-right: 10px; 
+}
+
+.visitante h5{
+    color: #490a0a;
+}
+
+.nome,
+.endereco,
+.genero,
+.cpf,
+.calendario,
+.pesagem,
+.email,
+.tipo-sanguineo {
+    color: #ffffff;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+input {
+    border:2px solid  #ffffff;
+    padding:10px;
+    color: grey;
+    background:#fffeed;
+    width:200px;
+    border-radius:25px;
+}
+
+.feminino,
+.masculino {
+    background:#fffeed;
+    color: #5A0000;
+    height: 25px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.tipo-sangue {
+    background:#fffeed;
+    color: #5A0000;
+    height: 25px;
+    margin-top: 3px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.botao-salvar {
+    background:#5A0000;
+    color: white;
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    float: right;
+    position: relative;
+    border-radius: 30px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transform: translateX(-90%);
+}
+
+.botao-clicar {
+    background:#5A0000;
+    color: white;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px; 
+    cursor: pointer;
+    float: right;
+    margin-left: 10px; 
+    position: relative;
+    border: none;
+    transform: translateX(40%);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 8px;
+}
+
+.genero img {
+    width: 12px;
+    height: 8px;
+    position: relative;
+    overflow: visible;
+    vertical-align: -webkit-baseline-middle;
+    transform: translateX(20%);
+    cursor: pointer;
+}
+
+.tipo-sanguineo img {
+    width: 12px;
+    height: 8px;
+    position: relative;
+    overflow: visible;
+    vertical-align: -webkit-baseline-middle;
+    cursor: pointer;
+}
+select {
+    background: #fffeed;
+    padding: 4px;
+    margin-top: 6px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 160px;
+  }
+  
+  option {
+    background: #fffeed;
+    color: #5a0000;
+    padding: 2px;
+    font-size: 13px;
+  }
+
+  #espaco {
+    margin-bottom: 100px;
+  }

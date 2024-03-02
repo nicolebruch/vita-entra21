@@ -1,0 +1,230 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, b, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+    background-color: #FFFEED;
+
+ 
+}
+
+/* --------------------------------------------------------- HEADER ----------------------------------------------------------*/
+
+
+#mural_titulo {
+    background-color: #5A0000;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#mural_titulo, h1 {
+    font-size: 25px;
+    color: #7A0F11;
+    font-family: "Paytone One", sans-serif;
+}
+
+h1 {
+    background-color: #FFFEED;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* --------------------------------------------------------- TITULO ----------------------------------------------------------*/
+
+
+#titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+#titulo h1 {
+    font-family: "Open Sans", sans-serif;  
+    font-size: 70px;
+}
+
+#titulo h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+}
+
+#titulo img {
+    margin-right: 340px; 
+    width: 41px;
+    height: 39;
+ }
+
+
+/* --------------------------------------------------------- ACCORDION ----------------------------------------------------------*/
+
+.dropdown {
+    padding: 24px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+}
+
+.bloco {
+    background-color: #dda3a3;
+    border-radius: 21px;
+}
+
+.titulo_botao {
+    background-color: #8D1215;
+    border-radius: 15px;
+    border: none;
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+    padding: 5px;
+    margin-left: 4px;
+}
+
+@media screen and (max-width: 430px) {
+
+    .titulo_botao {
+        font-size: 19px;
+    }
+  }
+
+  @media screen and (max-width: 392px) {
+
+    .titulo_botao {
+        font-size: 17px;
+    }
+  }
+
+.card_header img {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#headingOne.card-header {
+    display: flex;
+    
+}
+img {
+    width: 28px;
+    margin-left: 16px;
+}
+
+.card-body {
+    font-family: "Open Sans", sans-serif;
+    color:#690909;
+}
+
+li {
+    padding: 2px;
+    margin-left: 9px;
+}
+
+
+/* ---------------------------- BARRA DE NAVEGAÇÃO ------------------------------ */
+
+.navegacao {
+    margin-top: 20px;
+    padding: 7px;
+    display: flex;
+    background: #5A0000;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navegacao img {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: auto;
+    height: 40px;
+}
+
+#perfil {
+    background-color: #5A0000;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    
+}
+
+#perfil:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+#gota {
+    background-color: #5A0000;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    
+}
+
+#gota:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+#recompensa {
+    background-color: #5A0000;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    
+}
+
+#recompensa:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+#feed {
+    background-color: #5A0000;
+    transition: background-color 0.3s ease;
+    
+}
+
+#feed:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+#feed {
+    width: 50px;
+}
+
+#artigo {
+    background-color: #5A0000;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+   
+}
+
+#artigo:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+a {
+    -webkit-tap-highlight-color: transparent; 
+}
+

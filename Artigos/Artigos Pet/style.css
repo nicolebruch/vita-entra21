@@ -1,0 +1,234 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, b, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+    background-color: #FFFEED;
+
+ 
+}
+
+/* --------------------------------------------------------- HEADER ----------------------------------------------------------*/
+
+
+#mural_titulo {
+    background-color: #5A0000;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#mural_titulo, h1 {
+    font-size: 25px;
+    color: #7A0F11;
+    font-family: "Paytone One", sans-serif;
+}
+
+h1 {
+    background-color: #FFFEED;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* --------------------------------------------------------- TITULO ----------------------------------------------------------*/
+#titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#titulo h1 {
+    font-family: "Open Sans", sans-serif;  
+    font-size: 70px;
+}
+
+#titulo h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+}
+
+#titulo img {
+   margin-right: 340px; 
+}
+
+
+/* --------------------------------------------------------- OPÇÃO ARTIGOS ----------------------------------------------------------*/
+
+.pessoa_pet {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+   
+}
+
+.pessoa_pet img {
+    height: auto;
+    width: 370px;
+    margin: 15px;
+    margin-top: 20px;
+}
+
+/* .pessoa_pet:hover {
+    opacity: 0.8;
+} */
+
+.requisitos {
+    padding: 20px;
+    margin: 20px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #deaaaa;
+    border-radius: 20px;
+
+    margin-bottom: 130px;
+}
+
+.requisitos h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: #7A0F11;
+    padding: 5px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.requisitos li {
+    margin-left: 20px;
+
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: #5A0000;
+}
+
+/* ---------------------------- BARRA DE NAVEGAÇÃO ------------------------------ */
+
+
+.navegacao {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: flex;
+    background: #5A0000;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navegacao img {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: auto;
+    height: 40px;
+}
+
+/*----------------- EFEITOS---------------------------- */
+
+#cachorro:active {
+    opacity: 0.8;
+}
+
+#gato:active {
+    opacity: 0.8;
+}
+
+
+#perfil {
+    background-color: #5A0000;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    
+}
+
+#perfil:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+#gota {
+    background-color: #5A0000;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    
+}
+
+#gota:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+#recompensa {
+    background-color: #5A0000;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    
+}
+
+#recompensa:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+#feed {
+    background-color: #5A0000;
+    transition: background-color 0.3s ease;
+    
+}
+
+#feed:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+#feed {
+    width: 50px;
+}
+
+#artigo {
+    background-color: #5A0000;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+   
+}
+
+#artigo:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+a {
+    -webkit-tap-highlight-color: transparent; 
+}
+
+
+
+
+
+

@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: #FFFEED;
+}
+
+
+/*------------------------------------------------------ HEADER ------------------------------------------------------------------------------- */
+#mural_titulo {
+    background-color: #5A0000;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#mural_titulo,
+h1 {
+    font-size: 25px;
+    color: #7A0F11;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    background-color: #FFFEED;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+p {
+    margin-left: 6px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+  }
+
+/* -------------------------- PERFIL ---------------------------- */
+
+.iconVoltar {
+    margin-top: 20px;
+    margin-left: 30px;
+   }
+   
+
+.barra_perfil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.mensagem {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 65px;
+    font-size: 23px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.mensagem h3 {
+    font-weight: bold;
+}
+
+.barra_perfil img {
+    width: auto;
+    height: 80px;
+}
+
+.barra_perfil img:last-child {
+    margin-left: auto;
+    height: 80px;
+}
+
+.calendario {
+    max-width: 50 px;
+    max-height: 50px;
+    margin-top: 0;
+    margin-left: 23px;
+}
+
+.cronograma {
+    color: #490A0A;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    align-self: flex-end;
+}
+
+.cronograma {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+/* ------------------ TIRAR DUVIDAS ------------------ */
+
+.tirarDuvidas {
+    flex-shrink: 0;
+    color: #410A0C;
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: 800;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.containerBotoes{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card1,
+.card2 {
+    width: 142px;
+    height: 113px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #CB7D7D;
+}
+
+.card1:hover, .card2:hover{
+    background: #bd6363;
+    cursor: pointer;
+}
+
+.imagemCards {
+    width: 66.507px;
+    height: 63.793px;
+}
+
+.textoCards {
+    color: #410A0C;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+
+/* -------------------------NAV ------------------------------ */
+.navegacao {
+
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: flex;
+    background: #5A0000;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navegacao img {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: auto;
+    height: 40px;
+    fill: red;
+}
+
+/*--------------------- EFEITOS ----------------- */
+
+#pet:active {
+    opacity: 0.8;
+}
+
+#pet:active {
+    opacity: 0.8;
+}
+
+#pessoa:active {
+    opacity: 0.8;
+}
+
+#pessoa:active {
+    opacity: 0.8;
+}
+
+#perfil {
+    background-color: #5A0000;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    
+}
+
+#perfil:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+#gota {
+    background-color: #5A0000;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    
+}
+
+#gota:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+#recompensa {
+    background-color: #5A0000;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    
+}
+
+#recompensa:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+#feed {
+    background-color: #5A0000;
+    transition: background-color 0.3s ease;
+    
+}
+
+#feed:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+#feed {
+    width: 50px;
+}
+
+#artigo {
+    background-color: #5A0000;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+   
+}
+
+#artigo:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+a {
+    -webkit-tap-highlight-color: transparent; 
+}
+

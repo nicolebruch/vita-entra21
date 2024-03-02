@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>CADASTRO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+
+    <!-- open sans  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    
+    
+    <!-----------------       HEADER    --------------------->
+</head>
+
+<body>
+    <header id="cadastro_humano"> 
+        <h1><strong>PERFIL</strong></h1>
+</header>
+
+<!-----------------    CADASTRO     --------------------->
+    <div class="icon">
+        <div> 
+            <label class="visitante">
+                <img src="icon/icone.png">
+                <h5>Visitante</h5>
+            </label>
+        </div>
+
+        <div >
+            <a href="/Perfil/Perfil Pessoa/index.html">
+                <button class="btn-seusdados"><strong>DADOS</strong></button>
+            </a>
+        
+              <a href="/Perfil/Perfil Pet/index.html">
+                <button class="btn-petdados"><strong>DADOS PET</strong></button>
+            </a>
+        </div>
+       
+
+
+
+        <div class="retangulo">
+            <h2 class="retangulo_titulo">INFORMAÇÕES PESSOAIS</h2>
+        
+        <div class="nome">
+            <label for="nomeHumano" id="labelNome">Nome Completo</label>
+            <input type="text" id="nomeHumano" name="nome-completo" minlength="3" placeholder="Insira seu nome" required>
+        </div>
+
+        <div class="email">
+            <label for="dados" id="labelEmail">E-mail</label>
+            <input type="text" id="dados" name="email" placeholder="Insira seu E-mail" required>
+        </div>
+
+        <div class="genero">
+            <label for="toggleGenero" id="labelGenero" class="seta-label">
+                Gênero
+            </label>
+                <label>
+                <div class="opcoes-genero" id="opcoesGenero">
+                    <select id="bloodType">
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                    </select>
+                </label>
+        </div>
+    </div>    
+        <div class="cpf">
+            <label for="dadosRg" id="labelDadosRg">CPF</label>
+            <input type="number" id="dadosRg" name="cpf"  minlength="11" max="11" placeholder="Insira seu CPF" required>
+        </div>
+
+        <div class="calendario">
+            <label for="txtData" id="labelTxtData">Data de Nascimento</label>
+            <input type="date" id="txtData" name="data" class="caixa-texto" min="1900-01-01" max="2024-01-03" required>
+        </div>
+
+        <div class="endereco">
+            <label for="cep" id="labelCep">CEP</label>
+            <input type="number" id="cep" name="endereco" max="8" placeholder="Insira seu CEP" required>
+        </div>
+
+        <div class="pesagem">
+            <label for="txtPeso" id="labelTxtPeso">Peso</label>
+            <input type="number" id="txtPeso" min="50" name="massa" placeholder="Insira seu peso" required>
+        </div>
+
+        <div class="tipo-sanguineo"><strong>Tipo Sanguíneo</strong>
+            <div class="opcoes-tipo-sangue" id="opcoesTipoSangue">
+                <select id="bloodTypeSelect">
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                  </select>
+                 
+        </div>
+    </div>
+            <div>
+                <button class="botao-clicar"><strong>+</strong></button> 
+            </div>
+            <div>
+                <button type="button" class="botao-salvar" onclick="saveBloodHumano()">
+                  <strong>Salvar</strong>
+                </button>
+              </div>
+        </div>
+    </div>
+
+   
+    <nav class="navegacao">
+
+        <a href="/Feed/index.html">
+            <img id="feed" src="icon/Icon Feed.svg" alt="">     
+        </a>
+    
+        <a href="/Artigos/index.html">
+            <img id="artigo" src="icon/Icon Artigo.svg" alt="">
+        </a>
+       
+        <a href="/Home/index.html">
+            <img id="gota" src="icon/Icon Gota de Sangue.svg" alt="">
+        </a>
+        
+        <a href="/Conquistas/index.html">
+            <img id="recompensa" src="icon/Icon Recompensa.svg"">
+        </a>
+        
+        <a href="/Perfil/Perfil Pessoa/index.html">
+            <img id="perfil" src="icon/Icon Perfil.svg" alt="">
+        </a>          
+       </nav>
+
+       <div id="espaco">
+
+       </div>
+       
+    <script src="script.js"></script>
+</body>
+</html>
