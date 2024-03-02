@@ -5,6 +5,8 @@ Alunos: **Nicole Bruch, Sabrina Hedler, Leonardo Martins, Bruna Winter e Sara Ru
 
 Instrutora: **Maju Testoni.** 
 
+Link do projeto: https://vita-app-six.vercel.app 
+(Inspecionar numa tela para celular, como o iphone 14)
 
 ## Git
 
