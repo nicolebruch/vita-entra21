@@ -1,86 +1,129 @@
-# Trabalho Final - ENTRA21
-Projeto: **VITA**
+# 🩸 Trabalho Final - ENTRA21
 
-Alunos: **Nicole Bruch, Sabrina Hedler, Leonardo Martins, Bruna Winter e Sara Rubio.**
+## Projeto: **VITA**
 
-Instrutora: **Maju Testoni.** 
+### 👥 Equipe
+- **Bruna Winter**
+- **Leonardo Martins**
+- **Nicole Bruch**
+- **Sabrina Hedler**
+- **Sara Rubio**
 
-Link do projeto: https://vita-app-six.vercel.app 
-(Inspecionar numa tela para celular, como o iphone 14)
+### 🧑‍🏫 Instrutora
+- **Maju Testoni**
 
-## Git
+### 🔗 Link do Projeto
+Acesse o projeto no link abaixo (inspecionar em um dispositivo móvel, como iPhone 14 para melhor visualização):
 
-Funcionamento do GIT
-- instale o git https://git-scm.com/
-- executando == ok
+🌐 [VITA - Aplicativo de Doação de Sangue](https://vita-app-six.vercel.app)
 
-#### Projeto em sua maquina
-- criar uma pasta em seu computador 
-- abrir um terminal git bash (e não powershell)
-- dar o comando
+---
+
+## 🚀 Sobre o Projeto
+VITA é um aplicativo desenvolvido como trabalho final do curso ENTRA21, com o objetivo de facilitar a doação de sangue para humanos, gatos e cachorros. O projeto busca conectar doadores a instituições e tutores de animais que precisam de doação.
+
+---
+
+## 🛠 Configuração do Git
+
+### 🔹 Instalação do Git
+Caso ainda não tenha o Git instalado, faça o download e instale através do link:
+🔗 [Git SCM](https://git-scm.com/)
+
+### 🔹 Clonando o Projeto
+Para obter uma cópia do projeto em sua máquina:
+
+1. Crie uma pasta no seu computador.
+2. Abra um terminal Git Bash (não use PowerShell).
+3. Execute o comando abaixo para clonar o repositório:
 
 ```sh
 git clone https://github.com/nicolebruch/VITA-APP.git
 ```
 
-- gerencia as alterações nos arquivos desse diretorio usando o GIT
+4. Entre na pasta do projeto e inicialize o repositório Git (caso necessário):
 ```sh
 git init
 ```
-- serve p/ conectar o seu repositório local do Git a um repositório remoto especificado pela URL.
-- isso permite enviar e receber alterações entre o seu repositório local e o remoto.
+
+5. Conecte o repositório local ao repositório remoto:
 ```sh
 git remote add origin https://github.com/nicolebruch/VITA-APP.git
 ```
 
-- add um README no projeto caso nao tenha
+6. Se necessário, adicione um README ao projeto:
 ```sh
 git add README.md
 ```
 
-## Configurando GIT
-- colocar o email nas aspas
+---
+
+## 🔧 Configuração do Usuário no Git
+Defina seu nome e e-mail para garantir que seus commits sejam identificados corretamente:
+
 ```sh
-git config --global user.email "nicole@gmail.com"
-```
-- colocar seu nome nas aspas
-```sh
-git config --global user.name "nicolebruch"
+git config --global user.email "seu-email@gmail.com"
+git config --global user.name "seu-nome"
 ```
 
-#### Trabalhando com branch
-- sempre acessar a main para começar a trabalhar
-- na main
+---
+
+## 🌿 Trabalhando com Branches
+
+### 🔹 Atualizando a Main antes de iniciar
+Antes de criar uma nova branch, atualize a branch `main` com as últimas alterações:
 ```sh
 git pull
 ```
 
-- criando branch
+### 🔹 Criando uma nova branch
+Padrão de nomenclatura: **oQueFez-seuNome**
 
->  padrão do nome das branchs --> oQueFez-seuNome
-
+Exemplo:
 ```sh
 git checkout -b home-nicole
 ```
 
-- para mudar de branch
+### 🔹 Alternando entre branches
+Para mudar de branch, utilize:
+```sh
+git checkout nome-da-branch
+```
+Exemplo:
 ```sh
 git checkout cronograma-nicole
 ```
 ```sh
 git checkout main
 ```
-- após fazer as alterações desejadas e queira unir ao projeto
+
+### 🔹 Salvando e Enviando Alterações
+1. Adicione todas as alterações ao controle de versão:
 ```sh
 git add .
 ```
-> padrão do commit "[branch] o que foi feito"
+
+2. Faça um commit seguindo o padrão: `[branch] descrição do commit`
 ```sh
-git commit -m "ponto de coleta add"
+git commit -m "[ponto-de-coleta] Adicionado novo ponto de coleta"
 ```
+
+3. Envie as alterações para o repositório remoto:
 ```sh
 git push
 ```
-- no github terá a solicitação do merge e as alterações feitas
-- após feito o code review, pode seguir para o merge com a main
-- por isso, ao começar a trabalhar em uma nova branch sempre dar pull na main para atualizar
+
+### 🔹 Criando e Realizando Merge
+1. No GitHub, faça a solicitação do *merge* da sua branch com a `main`.
+2. Após a revisão do código (*code review*), o merge será aprovado.
+3. Antes de começar a trabalhar em uma nova branch, sempre atualize a `main`:
+```sh
+git pull
+```
+
+---
+
+## 📌 Considerações Finais
+Esse projeto foi desenvolvido com muito empenho e dedicação. Esperamos que ele possa contribuir para facilitar o processo de doação de sangue e salvar vidas! ❤️🐶🐱
+
+Se tiver dúvidas ou sugestões, fique à vontade para contribuir! 🚀
